@@ -1,0 +1,506 @@
+.siteheader {
+    display: none;
+}
+
+.card__break{
+    display: none;
+}
+
+image {
+    width: 100%;
+    height: auto;
+}
+
+.card--header {
+    margin-bottom: -45px;
+    
+}
+
+.card--footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar__item {
+    display: inline;
+}
+
+#WELCOME {
+    background-color: purple;
+}
+
+#WHAT-WE-DO {
+    background-color: pink;
+}
+
+#GET-IN-TOUCH {
+    background-color: violet;
+}
+
+.card--footer {
+    background-color: blueviolet;
+}
+
+.card {
+    overflow: auto;
+    text-align: left;
+}
+
+.card--welcome {
+    min-height: 600px;
+}
+
+.card--whoweare {
+    background-color: blue;
+    overflow: auto;
+    min-height: 600px;
+}
+
+.card--whatwedo {
+    min-height: 600px;
+}
+
+.card--getintouch {
+    padding-bottom: 60px;
+}
+
+.card--array {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.card--array__bordered {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(179, 179, 179);
+    margin-top: -1px;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.fa {
+    color: rgb(182, 182, 182);
+    font-size: 80px;
+    width: 100px;
+}
+
+.card__text {
+    color: rgb(182, 182, 182);
+    margin-left: 50px;
+    margin-top: 35px;
+    font-size: 40px;
+    word-wrap: break-word;
+}
+
+.card__text--footermobile {
+    margin-right: 50px;
+}
+
+.card__text--footertablet {
+    display: none;
+}
+
+.card__header {
+    color: white;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 70px;
+    margin-right: 50px;
+    word-wrap: break-word;
+}
+
+.card__header--small {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card__header--smaller {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card__img {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    overflow: auto;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 80px;
+    border-color: rgb(179, 179, 179);
+    margin-bottom: 10px;
+    width: 85vw;
+    font-size: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.button--welcome {
+    background-color: purple;
+}
+
+.button--whoweare {
+    background-color: blue;
+}
+
+.button--whatwedo {
+    background-color: pink;
+    margin-top: 80px;
+}
+
+.button--getintouch {
+    margin-top: 80px;
+    margin-left: 35px;
+    background-color: violet;
+}
+
+.card__form {}
+
+.card__input {
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(179, 179, 179);
+    background-color: rgb(241, 141, 241);
+    width: 75vw;
+    height: 100px;
+    margin-left: 50px;
+
+}
+
+.card__input--message {
+    height: 500px;
+}
+
+.card__label {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.glyphicon {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 100px;
+}
+
+.card--welcome__details {
+    max-width: 600px;
+}
+
+.card--whatwedo__details {}
+
+.card__form::after {
+    content: "";
+    height: 2px;
+    width: 90%;
+    background-color: rgb(179, 179, 179);
+    position: absolute;
+    left: 30px;
+    /* right: 30px; */
+    bottom: 0;
+}
+
+.card__form {
+    position: relative;
+}
+
+.card__text--welcome {
+    margin-right: 50px;
+}
+
+.card__text--whoweare {
+    margin-right: 50px;
+}
+
+.card__text--whatwedo {
+    margin-right: 50px;
+}
+
+.card__text--getintouch {
+    margin-right: 50px;
+}
+
+.card__text--array {
+    margin-right: 50px;
+}
+
+@media only screen and (min-width: 762px) {
+
+    .card__break{
+        display: unset;
+    }
+
+    .button {
+        width: 15vw;
+        font-size: 1.5vw;
+        border-radius: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .card__text {
+        font-size: 2vh;
+    }
+
+    .card__header {
+        font-size: 5vh;
+    }
+
+    .card__header--small {
+        font-size: 4vh;
+    }
+
+    .card__header--smaller {
+        font-size: 2.5vh;
+    }
+
+    .card__label {
+        font-size: 2.5vh;
+    }
+
+    .card--whoweare__row {
+        display: flex;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        min-height: 400px;
+        overflow: auto;
+        border-left: none;
+        border-right: none;
+    }
+
+    .card__img {
+        width: 40%;
+        min-height: 400px;
+        object-fit: cover;
+    }
+
+    .card--whoweare {
+        width: 60%;
+        min-height: 400px;
+    }
+
+    .card--array {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card--array__bordered {
+        display: flex;
+    }
+
+    .glyphicon {
+        margin-top: 100px;
+        margin-left: 40px;
+        font-size: 40px;
+    }
+
+    .button--whatwedo {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .card--welcome__details {
+        margin-top: 20vh;
+    }
+
+    .card__input {
+        width: 25vw;
+        height: 5vh;
+    }
+
+    .card__input--message {
+        width: 55vw;
+        height: 20vh;
+    }
+
+    .card__form {}
+
+    .card--getintouch__fields {
+        margin-top: 3vh;
+
+    }
+
+
+    .card__form--names {
+        display: table;
+
+    }
+
+    .card__form--tableelement {
+        display: table-cell;
+
+    }
+
+    .fa {
+        font-size: 20px;
+        width: 30px;
+    }
+
+    .card--getintouch__details {
+        display: flex;
+    }
+
+    .card--information {
+        margin-left: 15vw;
+    }
+
+    .button--getintouch {
+        margin-top: 40px;
+    }
+
+    .card__text--footermobile {
+        display: none;
+    }
+
+    .card__text--footertablet {
+        display: unset;
+    }
+
+    .siteheader {
+        display: block;
+        background-color: rgb(100, 31, 163);
+    }
+
+    .navbar {
+        padding: 1vh;
+    }
+
+    .navbar__item {
+        padding: 1vh;
+    }
+
+    a {
+        color: rgb(179, 179, 179);
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+        border-bottom: 4px solid violet;
+        padding-bottom: 18px;
+    }
+
+    .card__form::after {
+        content: "";
+        height: 100%;
+        width: 2px;
+        border-bottom: 2px solid rgb(179, 179, 179);
+        position: absolute;
+        /* right: 100%; */
+        left: 120%;
+        top: 0;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        margin: 0;
+        padding-top: 100px;
+        width: 300px;
+
+    }
+
+    .navbar__item {
+        display: block;
+        text-align: right;
+        margin-right: 40px;
+        margin-bottom: 30px;
+    }
+
+    main {
+        margin-left: 300px;
+    }
+
+    a {}
+
+    a:hover {
+        padding-bottom: 10px;
+        color: white;
+        text-decoration: none;
+        border-bottom: 2px solid violet;
+    }
+
+    .navbar__item--welcome {
+        padding-left: 130px;
+        border-bottom: 2px solid rgb(116, 74, 155);
+        padding-bottom: 18px;
+        padding-bottom: 10px;
+
+    }
+
+    .navbar__item--whoweare {
+        padding-left: 107px;
+        border-bottom: 2px solid rgb(116, 74, 155);
+        padding-bottom: 18px;
+        padding-bottom: 10px;
+    }
+
+    .navbar__item--whatwedo {
+        padding-left: 108px;
+        border-bottom: 2px solid rgb(116, 74, 155);
+        padding-bottom: 18px;
+        padding-bottom: 10px;
+    }
+
+    .navbar__item--getintouch {
+        padding-left: 100px;
+        border-bottom: 2px solid rgb(116, 74, 155);
+        padding-bottom: 18px;
+        padding-bottom: 10px;
+    }
+
+    .card--getintouch__fields {
+        min-height: 600px;
+    }
+
+    .card--information {
+        min-height: 600px;
+    }
+
+    .card__input {
+        width: 90%;
+    }
+
+    .card__input--message {
+        width: 95%;
+    }
+
+    .card--footer {
+        margin-left: 300px;
+    }
+
+    .siteheader{
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    
+}
