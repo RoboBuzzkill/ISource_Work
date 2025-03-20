@@ -1,0 +1,97 @@
+  #app-body {
+    background: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #app-header {
+    background-color: lightskyblue;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #monthYear {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  #calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 1rem;
+  }
+
+  #calendar-header {
+    background-color: #e1e9ff;
+    border-radius: 5px;
+    padding: 0.5rem 0;
+    margin-bottom: 10px;
+  }
+
+  .cell {
+    background-color: white;
+    height: 120px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+
+  .cell:hover{
+    transform: scale(1.02);
+  }
+
+  .cell > div.fw-bold {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+
+  .other-month {
+    color: #aaa;
+    background-color: #f7f7f7;
+  }
+
+  .today {
+    background-color: #fdf4cc;
+    border: 1px solid #f0c36d;
+  }
+
+  .event {
+    background-color: lawngreen;
+    color: white;
+    padding: 2px 4px;
+    margin-top: 2px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    clip-path: polygon(0 1%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+  .modal-header {
+    background-color: lightskyblue;
+    color: white;
+  }
+
+  .modal-content {
+    border-radius: 10px;
+  }
+
+  .btn-outline-primary {
+    border-color: white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: white;
+    color: lightskyblue;
+  }
