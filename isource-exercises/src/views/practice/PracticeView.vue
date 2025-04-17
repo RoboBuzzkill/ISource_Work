@@ -9,14 +9,17 @@
       </ul>
     </header>
     <main>
+      <div class="background__card--welcome">
       <section id="WELCOME" class="card card--welcome">
         <div class="card--welcome__details">
-          <h1 class="card__header"><b>Hyperspace</b></h1>
-          <p class="card__text card__text--welcome">Just another fine responsive site template <br class="card__break"> designed by <u> HTML5 UP</u> and
-            released for free <br class="card__break"> under the <u> Creative Commons.</u></p><br>
+          <h1 class="card__header"><b>Timothy Juzevski</b></h1>
+          <p class="card__text card__text--welcome">A mockup CV made by me<br class="card__break"> to try out different css and html code
+             <br class="card__break"> and get some bearings</p><br>
           <button class="button button--welcome">Learn more</button>
         </div>
       </section>
+    </div>
+    <div class="background__card--whoweare">
       <section id="WHO-ARE-WE" class="card">
         <div class="card--whoweare__row">
           <img class="card__img" src="/img/grey.jpg" alt="image 1">
@@ -43,69 +46,73 @@
           </div>
         </div>
       </section>
+    </div>
+      <div class="background__card--whatwedo">
       <section id="WHAT-WE-DO" class="card">
         <div class="card--whatwedo__details">
           <h2 class="card__header card__header--small">What we do</h2>
           <p class="card__text card__text--whatwedo">
-            aaaaaaaa aaaaaaa aaaaaaaaaa aaaaaaaaaaa aaaaaaaaaa aaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaa aaaaaa aaaaaaaaaa
+            Here is a list of some of the things I've done over the years
           </p>
         </div>
         <div class="card card--array">
           <div class="card--array__bordered">
-            <i class="glyphicon glyphicon-cloud"></i><br>
+            <i class="fa fa-cloud"></i><br>
             <div class="card--array__details">
-              <h3 class="card__header card__header--smaller">aaaaaaaa</h3>
+              <h3 class="card__header card__header--smaller">Front-end Development</h3>
               <p class="card__text">
-                aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa</p>
+                Multiple website done using HTML, CSS, and Javascript</p>
             </div>
           </div>
           <div class="card--array__bordered">
-            <i class="glyphicon glyphicon-lock"></i>
+            <i class="fa fa-gamepad"></i>
             <div class="card--array__details">
-              <h3 class="card__header card__header--smaller">aaaaaaaa</h3>
+              <h3 class="card__header card__header--smaller">Video Game Development</h3>
               <p class="card__text">
-                aaaaa aaaaaaaaa aaaaaaaaa aaaaaaaa aaaaaaaaaa aaaaaaaaaaa</p>
+                A selection of video games from art simulation, to tank battles, and VR experiences, made using Unity and Python</p>
             </div>
           </div>
           <div class="card--array__bordered">
-            <i class="glyphicon glyphicon-cog"></i>
+            <i class="fa fa-cog"></i>
             <div class="card--array__details">
-              <h3 class="card__header card__header--smaller">aaaaaaaa</h3>
+              <h3 class="card__header card__header--smaller">Robotics</h3>
               <p class="card__text">
-                aaaaaaaaa aaaaa aaaaaa aaaaaaaaaa aaaaaaaaa aaaaaaaaaaa</p>
+                A camera mounted hexapod controlled by both remote and smartphone</p>
             </div>
           </div>
           <div class="card--array__bordered">
-            <i class="glyphicon glyphicon-phone"></i>
+            <i class="fa fa-phone"></i>
             <div class="card--array__details">
-              <h3 class="card__header card__header--smaller">aaaaaaaa</h3>
+              <h3 class="card__header card__header--smaller">Mobile applications</h3>
               <p class="card__text">
-                aaaa aaaaaaaaaa aaaaaaaaaaaa aaaaa aaaaaaaaaaa aaaaaaaaaa</p>
+                Mobile apps such as a GPS and a weather tracker</p>
             </div>
           </div>
           <div class="card--array__bordered">
-            <i class="glyphicon glyphicon-link"></i>
+            <i class="fa fa-link"></i>
             <div class="card--array__details">
-              <h3 class="card__header card__header--smaller">aaaaaaaa</h3>
+              <h3 class="card__header card__header--smaller">YAML converter</h3>
               <p class="card__text">
-                aaaaaaaaa aaaaa aaaaaaaaaa aaaaaaa aaaaaaaaaa aaaaaaaaaaa</p>
+                A application that takes YAML code and creates websites with real time editing</p>
             </div> 
           </div>
           <div class="card--array__bordered">
-            <i class="glyphicon glyphicon-heart-empty"></i>
+            <i class="fa fa-pencil"></i>
             <div class="card--array__details">
-              <h3 class="card__header card__header--smaller">aaaaaaaa</h3>
+              <h3 class="card__header card__header--smaller">Modeling and Animation</h3>
               <p class="card__text">
-                aaaaa aaaaaaaaa aaaaa aaaaaaaaaaa aaa aaaaaaa aaaaaaaa aaa</p>
+                High quality animations and models made in blender for use in my other projects</p>
             </div>
           </div>
           <button class="button button--whatwedo">Learn more</button>
         </div>
       </section>
+    </div>
+    <div class="background__card--getintouch">
       <section id="GET-IN-TOUCH" class="card card--getintouch">
         <h2 class="card__header card__header--small">Get in touch</h2>
         <p class="card__text card__text--getintouch">
-          aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaaaa aaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaa aaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaa
+          If you would like to get in touch with me, write you name and email, along with your own message below, and I'll write back to you. Or, contact me through my other sources listed below 
         </p>
         <div class="card--getintouch__details">
           <div class="card--getintouch__fields">
@@ -121,36 +128,39 @@
                 </div>
               </div>
               <label class="card__label" for="Message"><b>Message</b></label>
-              <input class="card__input card__input--message" id="Message" name="Message" type="text"><br>
+              <textarea class="card__input card__input--message" id="Message" name="Message" rows="10" cols="50"></textarea><br>
               <button class="button button--getintouch">Send Message</button>
             </form>
           </div>
           <div class="card card--information">
             <div class="card card--information__details">
               <h3 class="card__header card__header--smaller">Address</h3>
-              <address class="card__text">12345 Somewhere Road #654 <br> Nashville, TN 00000-0000 <br> USA
+              <address class="card__text">Jorgov Kamen 1 <br> Bitola, 7000 <br> MK
               </address>
               <h3 class="card__header card__header--smaller">Email</h3>
-              <p class="card__text"><u>user@untitled.tld</u></p>
+              <p class="card__text"><u>timothyjuzevski@gmail.com</u></p>
               <h3 class="card__header card__header--smaller">Phone</h3>
-              <p class="card__text">(000) 000-0000</p>
+              <p class="card__text">(077) 432-373</p>
               <h3 class="card__header card__header--smaller">Social</h3>
               <p class="card__text">
-                <a href="#" class="fa fa-twitter"></a>&nbsp;
-                <a href="#" class="fa fa-facebook"></a>&nbsp;
-                <a href="#" class="fa fa-github"></a>&nbsp;
-                <a href="#" class="fa fa-instagram"></a>&nbsp;
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-twitter social"></a>&nbsp;
+                <a href="#" class="fa fa-facebook social"></a>&nbsp;
+                <a href="#" class="fa fa-github social"></a>&nbsp;
+                <a href="#" class="fa fa-instagram social"></a>&nbsp;
+                <a href="#" class="fa fa-linkedin social"></a>
               </p>
             </div>
           </div>
         </div>
       </section>
+    </div>
     </main>
+    <div class="background__card--footer">
     <footer class="card card--footer">
       <p class="card__text card__text--footermobile">&copy; Untitled All rights reserved <br><br> Design <u>HTML5 UP</u></p>
       <p class="card__text card__text--footertablet">&copy; Untitled All rights reserved &nbsp; | &nbsp; Design <u>HTML5 UP</u></p>
     </footer>
+  </div>
   </div>
 </template>
 
@@ -204,19 +214,33 @@ image {
 #WELCOME {
   background-color: purple;
 }
+.background__card--welcome{
+  background-color: purple;
+}
 
 #WHAT-WE-DO {
   background-color: pink;
 }
-
+.background__card--whatwedo{
+  background-color: pink;
+}
 #GET-IN-TOUCH {
   background-color: violet;
 }
-
+.background__card--getintouch{
+  background-color: violet;
+}
 .card--footer {
   background-color: blueviolet;
 }
+.background__card--footer{
+  background-color: blueviolet;
+}
 
+.card--information__details{
+  background-color: violet;
+
+}
 .card {
   overflow: auto;
   text-align: left;
@@ -232,6 +256,10 @@ image {
   min-height: 600px;
 }
 
+.background__card--whoweare{
+  background-color: blue;
+}
+
 .card--whatwedo {
   min-height: 600px;
 }
@@ -241,6 +269,7 @@ image {
 }
 
 .card--array {
+  background-color: pink;
   margin-bottom: 80px;
   margin-top: 80px;
   margin-left: 3%;
@@ -248,6 +277,7 @@ image {
 }
 
 .card--array__bordered {
+  background-color: pink;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(179, 179, 179);
@@ -258,7 +288,7 @@ image {
   text-align: left;
 }
 
-.fa {
+.social {
   color: rgb(182, 182, 182);
   font-size: 80px;
   width: 100px;
@@ -365,10 +395,10 @@ image {
   font-weight: bold;
 }
 
-.glyphicon {
+.fa {
   margin-top: 50px;
-  margin-left: 50px;
-  font-size: 100px;
+  margin-left: 10px;
+  font-size: 50px;
 }
 
 .card--welcome__details {
@@ -475,9 +505,9 @@ image {
     display: flex;
   }
 
-  .glyphicon {
-    margin-top: 100px;
-    margin-left: 40px;
+  .fa {
+    margin-top: 15px;
+    margin-left: 20px;
     font-size: 40px;
   }
 
@@ -508,7 +538,7 @@ image {
     display: table-cell;
   }
 
-  .fa {
+  .social {
     font-size: 20px;
     width: 30px;
   }
@@ -545,6 +575,21 @@ image {
   .navbar__item {
     padding: 1vh;
   }
+  .navbar__item--welcome{
+    text-decoration: none;
+  }
+  
+  .navbar__item--whoweare{
+        text-decoration: none;
+  } 
+
+  .navbar__item--whatwedo{
+        text-decoration: none;
+  }
+
+  .navbar__item--getintouch{
+        text-decoration: none;
+  }
 
   a {
     color: rgb(179, 179, 179);
@@ -580,6 +625,7 @@ image {
     text-align: right;
     margin-right: 40px;
     margin-bottom: 30px;
+    text-decoration: none;
   }
 
   main {
@@ -641,6 +687,11 @@ image {
     position: fixed;
     height: 100%;
     overflow: auto;
+    top: 0;
   }
+
+  .card--information__details{
+  padding-right: 50px; 
+}
 }
 </style>

@@ -188,9 +188,9 @@ export default {
       myModal.show();
     },
     setupVictoryCheck() {
+      const victoryModal = new Modal(this.$refs.victoryModal);
       this.victoryCheckInterval = window.setInterval(() => {
         if (!document.querySelector("img[src$='grey.jpg']")) {
-          const victoryModal = new Modal(this.$refs.victoryModal);
           victoryModal.show();
         }
       }, 10);

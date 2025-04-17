@@ -62,7 +62,8 @@ export default {
 <style lang="scss" scoped>
 
 header{
-    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    background-color: rgb(65, 65, 65);
     z-index: 99;
     width: 100%;
     transition: 0.5s ease all;
@@ -145,10 +146,12 @@ header{
         .dropdown-nav{
             display: flex;
             flex-direction: column;
+            position: fixed;
+            z-index: 1;
             width: 100%;
             max-width: 250px;
             height: 100%;
-            background-color: #fff;
+            background-color: #6f6f6f;
             top: 0;
             left: 0;
 
@@ -158,6 +161,20 @@ header{
                     color: #000;
                 }
             }
+        }
+
+        .mobile-nav-enter-active,
+        .mobile-nav-leave-active{
+            transition: 1s ease all;
+        }
+
+        .mobile-nav-enter-from,
+        .mobile-nav-leave-to{
+            transform: translate(-250px);
+        }
+
+        .mobile-nav-enter-to{
+            transform: translateX(0);
         }
     }
 }
