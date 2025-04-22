@@ -15,7 +15,7 @@
                 <div class="card-body">
                   <div class="row text-center">
                     <div class="col-12">
-                      <h3 id="seconds" class="display-6">00</h3>
+                      <h3 ref="seconds" class="display-6">00</h3>
                     </div>
                   </div>
                 </div>
@@ -27,61 +27,61 @@
         <div class="container">
           <div class="row" id="easyrow">
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 1" id="image1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 1" ref="image1" id="image1">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 2" id="image2">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 2" ref="image2" id="image2">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 3" id="image3">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 3" ref="image3" id="image3">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 4" id="image4">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 4" ref="image4" id="image4">
             </div>
           </div>
           <br>
           <div class="row" id="easyrow">
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 4" id="image4_1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 4" ref="image4_1" id="image4_1">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 3" id="image3_1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 3" ref="image3_1" id="image3_1">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 2" id="image2_1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 2" ref="image2_1" id="image2_1">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 1" id="image1_1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/grey.jpg" alt="image 1" ref="image1_1" id="image1_1">
             </div>
           </div>
           <br>
           <div class="row" id="normalrow">
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 6" id="image6">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 6" ref="image6" id="image6">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 5" id="image5">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 5" ref="image5" id="image5">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 5" id="image5_1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 5" ref="image5_1" id="image5_1">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 6" id="image6_1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 6" ref="image6_1" id="image6_1">
             </div>
           </div>
           <br>
           <div class="row" id="hardrow">
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 7" id="image7">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 7" ref="image7" id="image7">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 8" id="image8">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 8" ref="image8" id="image8">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 7" id="image7_1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 7" ref="image7_1" id="image7_1">
             </div>
             <div class="col-6 col-sm-3 memory-card" @click="flipCard($event)">
-              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 8" id="image8_1">
+              <img class="img-fluid shadow-lg p-3 mb-5 bg-white rounded border border-dark" src="img/face1.jpg" alt="image 8" ref="image8_1" id="image8_1">
             </div>
           </div>
           <br>
@@ -209,14 +209,14 @@ export default {
       
       normalRow.style.display = 'none';
       hardRow.style.display = 'none';
-      document.getElementById("image5").src = "img/face1.jpg";
-      document.getElementById("image6").src = "img/face1.jpg";
-      document.getElementById("image7").src = "img/face1.jpg";
-      document.getElementById("image8").src = "img/face1.jpg";
-      document.getElementById("image5_1").src = "img/face1.jpg";
-      document.getElementById("image6_1").src = "img/face1.jpg";
-      document.getElementById("image7_1").src = "img/face1.jpg";
-      document.getElementById("image8_1").src = "img/face1.jpg";
+      this.$refs.image5.src = "img/face1.jpg";
+      this.$refs.image6.src = "img/face1.jpg";
+      this.$refs.image7.src = "img/face1.jpg";
+      this.$refs.image8.src = "img/face1.jpg";
+      this.$refs.image5_1.src = "img/face1.jpg";
+      this.$refs.image6_1.src = "img/face1.jpg";
+      this.$refs.image7_1.src = "img/face1.jpg";
+      this.$refs.image8_1.src = "img/face1.jpg";
     },
     selectNormal() {
       const normalRow = document.querySelector('#normalrow');
@@ -224,14 +224,14 @@ export default {
       
       normalRow.style.display = 'flex';
       hardRow.style.display = 'none';
-      document.getElementById("image5").src = "img/grey.jpg";
-      document.getElementById("image6").src = "img/grey.jpg";
-      document.getElementById("image7").src = "img/face1.jpg";
-      document.getElementById("image8").src = "img/face1.jpg";
-      document.getElementById("image5_1").src = "img/grey.jpg";
-      document.getElementById("image6_1").src = "img/grey.jpg";
-      document.getElementById("image7_1").src = "img/face1.jpg";
-      document.getElementById("image8_1").src = "img/face1.jpg";
+      this.$refs.image5.src = "img/grey.jpg";
+      this.$refs.image6.src = "img/grey.jpg";
+      this.$refs.image7.src = "img/face1.jpg";
+      this.$refs.image8.src = "img/face1.jpg";
+      this.$refs.image5_1.src = "img/grey.jpg";
+      this.$refs.image6_1.src = "img/grey.jpg";
+      this.$refs.image7_1.src = "img/face1.jpg";
+      this.$refs.image8_1.src = "img/face1.jpg";
     },
     selectHard() {
       const normalRow = document.querySelector('#normalrow');
@@ -239,14 +239,14 @@ export default {
       
       normalRow.style.display = 'flex';
       hardRow.style.display = 'flex';
-      document.getElementById("image5").src = "img/grey.jpg";
-      document.getElementById("image6").src = "img/grey.jpg";
-      document.getElementById("image7").src = "img/grey.jpg";
-      document.getElementById("image8").src = "img/grey.jpg";
-      document.getElementById("image5_1").src = "img/grey.jpg";
-      document.getElementById("image6_1").src = "img/grey.jpg";
-      document.getElementById("image7_1").src = "img/grey.jpg";
-      document.getElementById("image8_1").src = "img/grey.jpg";
+      this.$refs.image5.src = "img/grey.jpg";
+      this.$refs.image6.src = "img/grey.jpg";
+      this.$refs.image7.src = "img/grey.jpg";
+      this.$refs.image8.src = "img/grey.jpg";
+      this.$refs.image5_1.src = "img/grey.jpg";
+      this.$refs.image6_1.src = "img/grey.jpg";
+      this.$refs.image7_1.src = "img/grey.jpg";
+      this.$refs.image8_1.src = "img/grey.jpg";
     },
     checkAndPush(array, element) {
       for (var i = 0; i < array.length; i++) {
@@ -414,52 +414,52 @@ export default {
       document.getElementById(id).src = "img/grey.jpg";
     },
     flip1() {
-      document.getElementById("image1").src = this.cardimages[0].file;
+      this.$refs.image1.src = this.cardimages[0].file;
     },
     flip2() {
-      document.getElementById("image2").src = this.cardimages[1].file;
+      this.$refs.image2.src = this.cardimages[1].file;
     },
     flip3() {
-      document.getElementById("image3").src = this.cardimages[2].file;
+      this.$refs.image3.src = this.cardimages[2].file;
     },
     flip4() {
-      document.getElementById("image4").src = this.cardimages[3].file;
+      this.$refs.image4.src = this.cardimages[3].file;
     },
     flip4_1() {
-      document.getElementById("image4_1").src = this.cardimages[4].file;
+      this.$refs.image4_1.src = this.cardimages[4].file;
     },
     flip3_1() {
-      document.getElementById("image3_1").src = this.cardimages[5].file;
+      this.$refs.image3_1.src = this.cardimages[5].file;
     },
     flip2_1() {
-      document.getElementById("image2_1").src = this.cardimages[6].file;
+      this.$refs.image2_1.src = this.cardimages[6].file;
     },
     flip1_1() {
-      document.getElementById("image1_1").src = this.cardimages[7].file;
+      this.$refs.image1_1.src = this.cardimages[7].file;
     },
     flip6() {
-      document.getElementById("image6").src = this.cardimages[8].file;
+      this.$refs.image6.src = this.cardimages[8].file;
     },
     flip5() {
-      document.getElementById("image5").src = this.cardimages[9].file;
+      this.$refs.image5.src = this.cardimages[9].file;
     },
     flip5_1() {
-      document.getElementById("image5_1").src = this.cardimages[10].file;
+      this.$refs.image5_1.src = this.cardimages[10].file;
     },
     flip6_1() {
-      document.getElementById("image6_1").src = this.cardimages[11].file;
+      this.$refs.image6_1.src = this.cardimages[11].file;
     },
     flip7() {
-      document.getElementById("image7").src = this.cardimages[12].file;
+      this.$refs.image7.src = this.cardimages[12].file;
     },
     flip8() {
-      document.getElementById("image8").src = this.cardimages[13].file;
+      this.$refs.image8.src = this.cardimages[13].file;
     },
     flip7_1() {
-      document.getElementById("image7_1").src = this.cardimages[14].file;
+      this.$refs.image7_1.src = this.cardimages[14].file;
     },
     flip8_1() {
-      document.getElementById("image8_1").src = this.cardimages[15].file;
+      this.$refs.image8_1.src = this.cardimages[15].file;
     },
     timerStart() {
       const loseModal = new Modal(this.$refs.loseModal);
@@ -470,17 +470,17 @@ export default {
         const distance = countDownDate - now;
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+        this.$refs.seconds.innerHTML = seconds.toString().padStart(2, '0');
 
         if (distance < 0) {
           clearInterval(this.timerInterval);
-          document.getElementById("seconds").innerHTML = "00";
+          this.$refs.seconds.innerHTML = "00";
           loseModal.show();
         }
 
         if (!document.querySelector("img[src$='grey.jpg']")) {
           clearInterval(this.timerInterval);
-          document.getElementById("seconds").innerHTML = "00";
+          this.$refs.seconds.innerHTML = "00";
         }
       }, 10);
     }

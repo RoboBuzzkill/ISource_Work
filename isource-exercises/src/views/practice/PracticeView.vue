@@ -15,34 +15,34 @@
           <h1 class="card__header"><b>Timothy Juzevski</b></h1>
           <p class="card__text card__text--welcome">A mockup CV made by me<br class="card__break"> to try out different css and html code
              <br class="card__break"> and get some bearings</p><br>
-          <button class="button button--welcome">Learn more</button>
+          <button class="button button--welcome"><a class="button__link" href="#WHO-ARE-WE">Learn more</a></button>
         </div>
       </section>
     </div>
     <div class="background__card--whoweare">
       <section id="WHO-ARE-WE" class="card">
         <div class="card--whoweare__row">
-          <img class="card__img" src="/img/grey.jpg" alt="image 1">
+          <img class="card__img" src="/img/robot.jpg" alt="robot">
           <div class="card--whoweare">
-            <h3 class="card__header card__header--small">Sed ipsum dolor</h3>
-            <p class="card__text card__text--whoweare">Phalus convallis elit id ullamcorper aaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaa aaaaaaaaaa</p>
-            <button class="button button--whoweare">Learn more</button>
+            <h3 class="card__header card__header--small">An Engineer</h3>
+            <p class="card__text card__text--whoweare">A adept user and maker of robotics and machinery</p>
+            <button class="button button--whoweare"><a class="button__link" href="https://www.youtube.com/watch?v=cTsxRtNJFMo">Video example</a></button>
           </div>
         </div>
         <div class="card--whoweare__row">
-          <img class="card__img" src="/img/grey.jpg" alt="image 2">
+          <img class="card__img" src="/img/webexample.jpg" alt="webexample">
           <div class="card--whoweare">
-            <h3 class="card__header card__header--small">Sed ipsum dolor</h3>
-            <p class="card__text card__text--whoweare">Phalus convallis elit id ullamcorper aaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaa aaaaaaaaaa</p>
-            <button class="button button--whoweare">Learn more</button>
+            <h3 class="card__header card__header--small">A Developer</h3>
+            <p class="card__text card__text--whoweare">A skilled programmer with versatile knowledge of multiple coding languages</p>
+            <button class="button button--whoweare"><router-link class="link button__link" :to="{name: 'home'}">Explore more</router-link></button>
           </div>
         </div>
         <div class="card--whoweare__row">
-          <img class="card__img" src="/img/grey.jpg" alt="image 3">
+          <img class="card__img" src="/img/gameexample.jpg" alt="gameexample">
           <div class="card--whoweare">
-            <h3 class="card__header card__header--small">Sed ipsum dolor</h3>
-            <p class="card__text card__text--whoweare">Phalus convallis elit id ullamcorper aaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaa aaaaaaaaaaa</p>
-            <button class="button button--whoweare">Learn more</button>
+            <h3 class="card__header card__header--small">A Creator</h3>
+            <p class="card__text card__text--whoweare">A creative mind who has created many projects from games, to websites </p>
+            <button class="button button--whoweare"><a class="button__link" href="https://github.com/RoboBuzzkill">See more</a></button>
           </div>
         </div>
       </section>
@@ -104,7 +104,7 @@
                 High quality animations and models made in blender for use in my other projects</p>
             </div>
           </div>
-          <button class="button button--whatwedo">Learn more</button>
+          <button class="button button--whatwedo"><a class="button__link" href="https://github.com/RoboBuzzkill">See more</a></button>
         </div>
       </section>
     </div>
@@ -116,7 +116,8 @@
         </p>
         <div class="card--getintouch__details">
           <div class="card--getintouch__fields">
-            <form class="card__form" action="" >
+            <form class="card__form" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="aa6317d5-6306-424d-bddd-d393d6325c1a">
               <div class="card__form--names">
                 <div class="card__form--tableelement">
                   <label class="card__label" for="name"><b>Name</b></label>
@@ -129,7 +130,7 @@
               </div>
               <label class="card__label" for="Message"><b>Message</b></label>
               <textarea class="card__input card__input--message" id="Message" name="Message" rows="10" cols="50"></textarea><br>
-              <button class="button button--getintouch">Send Message</button>
+              <button type="submit" class="button button--getintouch">Send Message</button>
             </form>
           </div>
           <div class="card card--information">
@@ -173,9 +174,20 @@ export default {
 <style scoped>
 
 
+
 .practice-container {
   /* Your CSS from style.css goes here */
   font-family: Arial, sans-serif;
+}
+
+.button__link{
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+}
+.button__link:hover{
+  text-decoration: none;
+  border-bottom: none;
+  color: white;
 }
 
 .siteheader {
@@ -219,10 +231,10 @@ image {
 }
 
 #WHAT-WE-DO {
-  background-color: pink;
+  background-color: rgb(242, 0, 255);
 }
 .background__card--whatwedo{
-  background-color: pink;
+  background-color: rgb(242, 0, 255);
 }
 #GET-IN-TOUCH {
   background-color: violet;
@@ -239,7 +251,7 @@ image {
 
 .card--information__details{
   background-color: violet;
-
+  border: none;
 }
 .card {
   overflow: auto;
@@ -269,7 +281,8 @@ image {
 }
 
 .card--array {
-  background-color: pink;
+  border: none;
+  background-color: rgb(242, 0, 255);
   margin-bottom: 80px;
   margin-top: 80px;
   margin-left: 3%;
@@ -277,7 +290,7 @@ image {
 }
 
 .card--array__bordered {
-  background-color: pink;
+  background-color: rgb(242, 0, 255);
   border-style: solid;
   border-width: 2px;
   border-color: rgb(179, 179, 179);
@@ -292,6 +305,14 @@ image {
   color: rgb(182, 182, 182);
   font-size: 80px;
   width: 100px;
+  text-decoration: none;
+}
+
+.social:hover{
+  border-bottom: none;
+  text-decoration: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .card__text {
@@ -337,7 +358,7 @@ image {
 }
 
 .button {
-  color: white;
+  color: rgb(182, 182, 182);
   text-decoration: none;
   border-style: solid;
   border-radius: 80px;
@@ -352,6 +373,10 @@ image {
   margin-bottom: 100px;
 }
 
+.button:hover{
+  color: white;
+}
+
 .button--welcome {
   background-color: purple;
 }
@@ -361,7 +386,7 @@ image {
 }
 
 .button--whatwedo {
-  background-color: pink;
+  background-color: rgb(242, 0, 255);
   margin-top: 80px;
 }
 
@@ -372,6 +397,7 @@ image {
 }
 
 .card__input {
+  color: rgb(182, 182, 182);
   text-decoration: none;
   border-style: solid;
   border-radius: 5px;
@@ -380,10 +406,16 @@ image {
   width: 75vw;
   height: 100px;
   margin-left: 50px;
+  padding-left: 10px;
+}
+
+.card__input:focus{
+  
 }
 
 .card__input--message {
   height: 500px;
+  padding-top: 4px;
 }
 
 .card__label {
@@ -397,7 +429,7 @@ image {
 
 .fa {
   margin-top: 50px;
-  margin-left: 10px;
+  margin-left: 50px;
   font-size: 50px;
 }
 
@@ -608,12 +640,17 @@ image {
     width: 2px;
     border-bottom: 2px solid rgb(179, 179, 179);
     position: absolute;
-    left: 120%;
+    left: 110%;
     top: 0;
   }
 }
 
 @media only screen and (min-width: 992px) {
+
+  .card__form::after{
+    left: 125%;
+  }
+
   .navbar {
     margin: 0;
     padding-top: 100px;

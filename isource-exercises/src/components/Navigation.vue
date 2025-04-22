@@ -102,8 +102,8 @@ header{
             border-bottom: 1px solid transparent;
 
             &:hover{
-                color: #00afea;
-                border-color: #00afea;
+                color: #41b883;
+                border-color: #41b883;
             }
         }
 
@@ -156,9 +156,15 @@ header{
             left: 0;
 
             li{
-                margin-left: 0;
+                margin-left: -31px;
+                border-bottom: 2px solid #41b883;
                 .link{
                     color: #000;
+                    &:hover{
+                        color: #41b883;
+                        text-decoration: none;
+                        border-bottom: none;
+                    }
                 }
             }
         }

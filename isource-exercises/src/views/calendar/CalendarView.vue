@@ -21,7 +21,7 @@
         <div id="calendar" ref="calendar"></div>
       </main>
 
-      <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+      <div class="modal fade" id="eventModal" ref="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <form id="eventForm" class="modal-content" @submit.prevent="saveEvent">
             <div class="modal-header">
@@ -95,7 +95,7 @@ export default {
       localStorage.setItem("calendarEvents", JSON.stringify(events));
     },
     renderCalendar() {
-      const calendarElement = document.getElementById('calendar');
+      const calendarElement = this.$refs.calendar;
       if (!calendarElement) return;
 
       calendarElement.innerHTML = "";
@@ -447,7 +447,7 @@ export default {
   },
   mounted() {
     // Initialize Bootstrap modal
-    this.eventModal = new Modal(document.getElementById('eventModal'));
+    this.eventModal = new Modal(this.$refs.eventModal);
     this.renderCalendar();
   }
 };
