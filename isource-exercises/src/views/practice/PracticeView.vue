@@ -230,6 +230,10 @@ image {
   background-color: purple;
 }
 
+#WHO-WE-ARE{
+  background-color: blue;
+}
+
 #WHAT-WE-DO {
   background-color: rgb(242, 0, 255);
 }
@@ -253,6 +257,12 @@ image {
   background-color: violet;
   border: none;
 }
+
+.card--information{
+  background-color: violet;
+  border: none;
+}
+
 .card {
   overflow: auto;
   text-align: left;
@@ -407,10 +417,6 @@ image {
   height: 100px;
   margin-left: 50px;
   padding-left: 10px;
-}
-
-.card__input:focus{
-  
 }
 
 .card__input--message {
@@ -636,11 +642,11 @@ image {
 
   .card__form::after {
     content: "";
-    height: 100%;
+    height: 110%;
     width: 2px;
     border-bottom: 2px solid rgb(179, 179, 179);
     position: absolute;
-    left: 110%;
+    left: 115%;
     top: 0;
   }
 }
@@ -648,7 +654,7 @@ image {
 @media only screen and (min-width: 992px) {
 
   .card__form::after{
-    left: 125%;
+    left: 130%;
   }
 
   .navbar {
